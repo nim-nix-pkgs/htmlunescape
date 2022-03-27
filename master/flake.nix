@@ -11,6 +11,7 @@
   inputs.src-htmlunescape-master.ref   = "refs/heads/master";
   inputs.src-htmlunescape-master.owner = "AmanoTeam";
   inputs.src-htmlunescape-master.repo  = "htmlunescape";
+  inputs.src-htmlunescape-master.dir   = "";
   inputs.src-htmlunescape-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
