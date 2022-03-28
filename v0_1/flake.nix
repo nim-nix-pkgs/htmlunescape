@@ -11,7 +11,6 @@
   inputs.src-htmlunescape-v0_1.ref   = "refs/tags/v0.1";
   inputs.src-htmlunescape-v0_1.owner = "AmanoTeam";
   inputs.src-htmlunescape-v0_1.repo  = "htmlunescape";
-  inputs.src-htmlunescape-v0_1.dir   = "";
   inputs.src-htmlunescape-v0_1.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
